@@ -1,0 +1,216 @@
+@font-face {
+	font-family: 'PT'; 
+	src: url(PT.ttf); 
+}
+
+a {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+input {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+select {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+button {
+    all: initial;
+    cursor: pointer;
+    font-family: 'PT'; 
+}
+
+body {
+    margin: 0;
+    font-family: 'PT'; 
+}
+._header ._head {
+    background: rgb(37,120,183);
+    background: linear-gradient(180deg, rgba(37,120,183,1) 0%, rgba(0,78,137,1) 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+._header ._head ._content {
+    display: flex;
+    align-items: center;
+    width: 940px;
+}
+._header ._head ._content ._text {
+    display: grid;
+    color: white;
+}
+
+._nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid;
+    border-color: #6E8FAB;
+}
+._nav ._content {
+    display: flex;
+    width: 940px;
+}
+._nav ._content ._nv {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #6E8FAB;
+    padding: 20px 40px;
+    color: #6E8FAB;
+}
+._main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+._main ._content {
+    display: grid;
+    width: 940px;
+    gap: 10px;
+}
+
+._main ._content ._htext {
+    font-size: 18px;
+}
+
+._main ._content ._block {
+    display: grid;
+    background: #E6EEF6;
+    padding: 25px;
+    gap: 25px;
+}
+
+._main ._content ._block ._inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+._main ._content ._block ._inputs ._input_block {
+    display: grid;
+    gap: 10px;
+    font-size: 18px;
+
+}
+
+._main ._content ._block ._inputs ._input_block ._input {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.2) inset;
+    border: 0.005px solid;
+    border-color: gray;
+}
+
+._main ._content ._block ._inputs ._input_block ._input:focus {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(37, 120, 183, 0.2);
+    border: 0.005px solid;
+    border-color: #2578B7;
+}
+
+._main ._content ._block_table {
+    display: grid;
+    font-size: 24px;
+}
+._main ._content ._block_table ._b {
+    margin-top: 10px;
+    height: 5px;
+    width: auto;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(57,126,179,1) 100%);
+}
+._main ._content ._block_table ._table {
+    font-size: 16px;
+    background: #E8EEF5;
+    overflow: scroll;
+}
+._main ._content ._block_table ._table th,td {
+    padding: 25px;
+}
+
+._footer {
+    display: grid;
+    margin-top: 10px;
+}
+
+._footer ._h-footer {
+    background: #E6EEF6;
+    display: flex;
+    justify-content: center;
+}
+
+._footer ._h-footer ._content {
+    width: 940px;
+    display: flex;
+    padding: 25px;
+    align-items: flex-start;
+}
+
+._footer ._h-footer ._content ._col {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+._footer ._h-footer ._content ._col ._a {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #2A3C49;
+}
+._footer ._h-footer ._content ._col ._b {
+    font-size: 18px;
+    color: #2A3C49;
+}
+._footer ._h-footer ._content ._col ._href {
+    font-size: 18px;
+    color: #399BCB;
+    width: fit-content;
+}
+
+._footer ._d-footer {
+    background: rgb(37,120,183);
+    background: linear-gradient(180deg, rgba(37,120,183,1) 0%, rgba(0,78,137,1) 100%);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+._footer ._d-footer ._content {
+    width: 940px;
+    display: flex;
+    font-size: 16px;
+    color: #A5B8D1;
+}
+
+._footer ._d-footer ._content ._col {
+    width: 100%;
+    display: grid;
+    gap:10px;
+}
+
+._footer ._d-footer ._content ._col a {
+    color: white;
+}
+
+._btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+}
+._btn-blue {
+    background: rgb(37,120,183);
+    background: linear-gradient(180deg, rgba(37,120,183,1) 0%, rgba(0,78,137,1) 100%);
+    color: white;
+}
